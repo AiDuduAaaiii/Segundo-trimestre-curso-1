@@ -10,9 +10,9 @@
 body {
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
-    fonte-family: var (var(--fonte-principal);
+    font-family: var (var(--fonte-principal);
     font-size: 16px;
-    font-weight 400;
+    font-weight: 400;
 }
 
 * {
@@ -31,7 +31,8 @@ body {
 .container {
     height: 100vh;
     display: grid;
-    grid-template-colunms; 50% 50%;
+    grid-template-columns: 50% 50%;
+}
 
 .conteiner__botao {
     background-color: var(--botao-azul);
@@ -39,12 +40,13 @@ body {
     padding: 1em;
     color: var(--branco-principal);
     display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
 }
 
-margin-bottom: 1em; 
 .botao_secundario {
     background-color: transparent;
-    border: 2px solid var (--branco-principal)
+    border: 2px solid var(--branco-principal);
 }
 
 .container__aviso {
@@ -55,4 +57,28 @@ margin-bottom: 1em;
 .conteiner__titulo {
     font-size: 28px;
     font-weight: 700;
+}
+
+.container__imagem {
+    margin: 1em 0 2em 0;
+}
+
+.container__caixa {
+    margin: 0 6em;
+}
+
+.secundario__imagem {
+    width: 80%;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
 }
